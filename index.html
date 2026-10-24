@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="site-title">EarnKaro Storefront</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="header-title">My Store</h1>
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <select id="category-select">
+                <option value="all">All Categories</option>
+            </select>
+        </div>
+    </header>
+    
+    <main>
+        <div id="status-message">Loading products...</div>
+        <div id="product-grid" class="grid"></div>
+    </main>
+
+    <footer>
+        <p><strong>Affiliate Disclosure:</strong> This site contains affiliate links. If you purchase through these links, I may earn a commission at no additional cost to you.</p>
+    </footer>
+    
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
